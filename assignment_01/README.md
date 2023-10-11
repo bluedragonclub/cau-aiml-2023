@@ -72,8 +72,8 @@
     ```
 
 - 다음은 본 과제에서 제공하는 데이터(훈련 데이터)를 시각화한 것입니다.
-
-    <img src="scatter.jpg" width=600px>
+    
+    <img src="scatter.jpg" alt="Drawing" width="600px"/>
 
 
 ### 문제 1A
