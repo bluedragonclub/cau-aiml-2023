@@ -7,7 +7,7 @@
 
 - [BDC 클라이언트](https://github.com/bluedragonclub/bdc-client)를 이용하여 BDC 서버에 `regression.py`를 제출하면 채점이 진행됩니다.
 
-- BDC 클라이언트를 사용하는 방법은, 수업 디스코드 서버의 `announcement` 채널에서 제공하는 튜토리얼 슬라이드를 참고하시기 바랍니다.
+- BDC 클라이언트를 사용하는 방법은, 수업 Discord 서버의 `announcement` 채널에서 제공하는 튜토리얼 슬라이드를 참고하시기 바랍니다.
 
 - 과제의 최종 점수는 제출 기한 이후 최종 순위에 따라 차등 결정됩니다.
 
@@ -52,9 +52,9 @@
 
 - 본 과제에서 함수 $f(x)$가 종속 변수 $y$를 잘 설명하고 예측하는지 살펴보기 위하여 성능 측정 지표(metric)로서 [MSE(mean squared error)](https://en.wikipedia.org/wiki/Mean_squared_error)를 사용합니다.
 
-    $$
-    MSE := \frac{1}{n}\sum_{i=1}^{n}{\Big(y - f(x)\Big)^2}
-    $$
+$$
+MSE := \frac{1}{n}\sum_{i=1}^{n}{\Big(y - f(x)\Big)^2}
+$$
 
 - 다음은 MSE를 계산하는 Python 코드 예시입니다.
 
@@ -85,8 +85,8 @@
 
 $$
 \begin{align*}
-1 \;< \;&\; x \; <\; 72 \\
--19 \;< \;&\;  y \; <\; 157
+  1 < x < 72 \\
+-19 < y < 157
 \end{align*}
 $$
 
@@ -97,7 +97,7 @@ $$
 
 $$
 \begin{align*}
-71 \;< \;&\; x \; <\; 101 \\
-156 \;< \;&\;  y \; <\; 304
+ 71 < x < 101 \\
+156 < y < 304
 \end{align*}
 $$
