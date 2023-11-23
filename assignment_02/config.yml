@@ -1,0 +1,11 @@
+---
+
+"COURSE": "CAU_AIML_2023"
+"ASSIGNMENT": "ASSIGNMENT_02"
+
+"ID": "20001234"
+"FILES":
+    - "YOUR-PATH-TO-REPO/assignment_02/model01_result_valid.csv" 
+    # - "YOUR-PATH-TO-REPO/assignment_02/classification.py" 
+"PROBLEMS": 
+    - "PROBLEM_01"
