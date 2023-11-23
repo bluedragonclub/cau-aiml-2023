@@ -1,5 +1,5 @@
 
-# 과제#1 분류 챌린지
+# 과제#2 성별 분류 챌린지
 
 - 한국인의 인체 치수를 이용하여 성별을 분류하는 머신러닝 모델을 개발하는 과제입니다.
 
@@ -101,6 +101,7 @@
 
     ```
     # predict_valid.py
+
     import numpy as np
     import pandas as pd
     from sklearn.metrics import accuracy_score
